@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    text-align: center;
+    border-spacing:8px 0px;
+}
+
+.linhaEscura td{
+    background-color: #f7f7f7;
+    padding: 16px;
+    
+}
+
+.linhaBranca td{
+    background-color: white;
+    padding: 16px;
+    
+}
+
+table td{
+    width: 250px;
+}
+
+th {
+    padding: 36px;
+    font-size: 46px;
+}
+
+.price{
+    padding: 16px;
+    font-size: 28px;
+}
+
+.pVerde{
+    color: #60cb71;
+    border: #60cb71 2px solid;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+
+.pRoxo{
+    color: #5f5dac;
+    border: #5f5dac 2px solid;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.pAzul{
+    color: #1f81d3;
+    border: #1f81d3 2px solid;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+}
